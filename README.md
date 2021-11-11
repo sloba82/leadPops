@@ -1,6 +1,8 @@
 
 ## leadPops app
 
+- .env is provided in root of project please change to your credentials DB_DATABASE, DB_USERNAME, DB_PASSWORD
+- postmen collection is in the root of project leadPops.postman_collection.json
 
 clone the repo and please run next commands in your terminal
 
@@ -9,8 +11,7 @@ clone the repo and please run next commands in your terminal
 - php artisan migrate --seed
 - php artisan serve
 ```
-- .env is provided in root of project please change to your credentials DB_DATABASE, DB_USERNAME, DB_PASSWORD
-- postmen collection is in the root of project
+
 
 Project should be found on route http://127.0.0.1:8000
 
